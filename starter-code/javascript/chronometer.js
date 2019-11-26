@@ -1,5 +1,5 @@
-class Chronometer {
-  constructor() {
+class Chronometer{
+  constructor(){
     this.currentTime = 0,
       this.intervalId = 0
   }
@@ -21,8 +21,6 @@ class Chronometer {
 
   }
 }
-
-
 
 
 
