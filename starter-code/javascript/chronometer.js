@@ -26,7 +26,13 @@ class Chronometer{
     }
     return number.toString()
 }
+  stopClick (){
+    return clearInterval(this.intervalId)
+  }
 
+  resetClick(){
+    return this.currentTime = 0
+  }
 
 }
 
